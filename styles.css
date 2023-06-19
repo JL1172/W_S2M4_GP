@@ -1,1 +1,36 @@
 /* styles here */
+body {
+    margin: 10px; 
+    padding: 6px;
+    line-height: 1.3;
+    /* border: 3px dashed gray;  */
+}
+nav {
+    text-align: center;
+}
+nav a{ /*anchor tags nested in navs not same as combination selector */ 
+    color: orange;
+}
+h1,h2,h3 {
+    margin: 1.2rem;
+    text-align: center;
+}
+
+.smallish {
+    font-size: .8rem;
+}
+.legal {
+    font-size: .8rem; /*this is a percentage of the default font size*/
+    margin-bottom: 1.5rem; /*if the defaul was 10px 1 rem would be 10 2 would be 20 */
+}
+.seperator {
+    margin: 2rem;
+    font-size: .8rem;
+    text-align: center;
+}
+.seperator::before,
+.seperator::after { /*pseudo element*/
+    content: ' *** ';
+}
+
+
